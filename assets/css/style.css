@@ -24,13 +24,12 @@ header {
 .logo{
     width: 100px;
 }
+.logoimg img{
+    width: 80px;
+    height: 80px;
+}
 .menu{
     flex: 1;
     display: flex;
     justify-content: flex-end;/*colocar menu para final*/
-}
-.logoimg{
-    width: 80px;
-    height: 80px;
-    background-color: #b28756;
 }
