@@ -60,7 +60,13 @@ header {
 .menu li a:hover,
 .menu .active a{
     border-bottom:5px solid #B28756;
+    color:#ccc;
 }
-{
 
+/*Área do banner*/
+.banner{
+    height: calc(100vh - 100px);
+    background:#333;
+    background-image:url('../images/icones/bg.jpg');
+    background-size:cover;
 }
