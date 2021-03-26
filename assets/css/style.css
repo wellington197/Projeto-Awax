@@ -124,3 +124,16 @@ header {
     -ms-border-radius:20px;
     -o-border-radius:20px;
 }
+
+.banner .sliders-pointers{
+    width:100vw;
+    height:20px;
+    background-color:red;
+    position:absolute;
+    margin-top:-50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
