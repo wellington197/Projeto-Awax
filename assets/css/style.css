@@ -128,12 +128,25 @@ header {
 .banner .sliders-pointers{
     width:100vw;
     height:20px;
-    background-color:red;
     position:absolute;
     margin-top:-50px;
     display:flex;
     justify-content:center;
     align-items:center;
 
-
+}
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--bege);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-right:5px;
+    margin-left: 5px;
+}
+.banner .pointer.active{
+    background-color: var(--bege);
 }
