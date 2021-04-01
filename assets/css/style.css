@@ -173,6 +173,7 @@ header {
     font-size: 12px;
     color: #ccc;
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .default .section-body{
@@ -180,4 +181,18 @@ header {
     margin:auto;
     background-color: azure;
     min-height: 100px;
+}
+
+.default .light{
+    background-color: f7f7f7;
+}
+.default.light .section-title{
+    color: #000;
+}
+
+.default.dark{
+    background-color:#000;
+}
+.default.dark .section-title{
+    color:#fff;
 }
