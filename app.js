@@ -7,7 +7,7 @@ var app = express()
 
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + "/src/index.html")
+    res.sendFile(__dirname + "/src/home.html")
 })
 
 //Public
