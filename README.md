@@ -8,7 +8,7 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 
 
 <!--Markdown do travis-->
-[![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=main)](https://travis-ci.com/wellington197/Interface_Netflix)
+[![Build Status](https://travis-ci.com/wellington197/Projeto-Awax.svg?branch=main)](https://travis-ci.com/wellington197/Projeto-Awax)
 
 ![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
 <img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/>
@@ -70,7 +70,21 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
         - Visual Stúdio
         - Travis
 
+### Conexão da Pipeline TRAVIS e HEROKU
+- Digite Heroku Login no seu terminal
+Será direcionado para página de Login do heroku. Basta acessar com sua conta.
+
+- Conecte o Travis CI com Token GitHub;
+travis login --pro --github-token "Inserir token"
+*Login Travis --pro CI - É necessário a instalação do Rub
+
+- Encriptar Secure Key do heroku;
+travis encrypt $(heroku auth:token) --add deploy.api_key --pro
+
+- Subindo projeto para GitHub;
+- Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
+
 ## Mentoria e Colaboração:
 
 [<h5>Mentoria</h5><br><img src="https://avatars.githubusercontent.com/u/459858?v=4" width=115 > <br> <sub>Bonieki Lacerda</sub>](https://github.com/bonieky) |[<h5>Dev</h5><br><img src="https://avatars0.githubusercontent.com/u/46049384?s=400&u=5ffc9ececdad90da42baa09e1892f037e800e0db&v=4" width=115 > <br> <sub> Francisco Wellington Costa </sub>](https://github.com/wellington197) |
-| :---: | :---: | :---: |
+| :---: | :---: | 
