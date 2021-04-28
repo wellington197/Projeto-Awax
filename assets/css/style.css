@@ -320,3 +320,15 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-projects--photo{
     width: 280px;
 }
+
+
+/*Área das fotos*/
+.section-projects--photo{
+    width: 280px;
+}
+
+.section-projects--photoarea{
+    margin:10px;
+    width:260px;
+    height:160px;
+}

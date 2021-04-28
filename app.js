@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 })
 
 //Public
-app.use(express.static(path.join(__dirname, "assets")))
+app.use(express.static(path.join(__dirname, "public")))
 
 //Launch listening server on port 8888
 const PORT = process.env.PORT || 8888
