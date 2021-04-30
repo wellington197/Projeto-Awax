@@ -75,7 +75,7 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 Será direcionado para página de Login do heroku. Basta acessar com sua conta.
 
 - Conecte o Travis CI com Token GitHub;
-travis login --pro --github-token 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
+travis login --pro --github-token xxxxxxxxxxxxxxx
 *Login Travis --pro CI - É necessário a instalação do Rub
 
 - Encriptar Secure Key do heroku;
