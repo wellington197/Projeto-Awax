@@ -332,3 +332,10 @@ CSS DE ÁREAS ESPECÍFICAS
     width:260px;
     height:160px;
 }
+.section-projects--photoarea img{ 
+    width:inherit;
+    height:inherit;
+}
+.section-projects--photoinfo{
+    display:none;
+}
