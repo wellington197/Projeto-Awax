@@ -318,14 +318,12 @@ CSS DE ÁREAS ESPECÍFICAS
     flex-wrap: wrap;
     justify-content: center;
 }
-.section-projects--photo{
-    width: 280px;
-}
+
 
 
 /*Área das fotos*/
 .section-projects--photo{
-    width: 280px;
+    width:280px;
 }
 
 .section-projects--photoarea{
@@ -333,3 +331,8 @@ CSS DE ÁREAS ESPECÍFICAS
     width:260px;
     height:160px;
 }
+.section-projects--photoarea img{
+    margin:inherit;
+    width:inherit;
+}
+
