@@ -341,9 +341,20 @@ CSS DE ÁREAS ESPECÍFICAS
     height:inherit;
     width:inherit;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
+    display: none; /*só irá aparecer qaundo passar o mouse*/
 
 }
+.section-projects--photoinfo h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.section-projects--photoarea:hover .section-projects--photoinfo{
+    display: flex;
+}
+
+
 
