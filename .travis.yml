@@ -1,7 +1,9 @@
 language: node_js
 node_js:
-- node
+  - node
 sudo: false
+script:
+  - npm test
 
 deploy:
   provider: heroku
