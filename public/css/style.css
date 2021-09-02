@@ -336,6 +336,14 @@ CSS DE ÁREAS ESPECÍFICAS
     width:inherit;
 }
 .section-projects--photoinfo{
-    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    height:inherit;
+    width:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
 }
 
