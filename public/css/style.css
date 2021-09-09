@@ -356,15 +356,16 @@ CSS DE ÁREAS ESPECÍFICAS
     display: flex;
 }
 
+
 .default.dark.bg-team{
-    background-image:url('../media/foto6.jpg');
-    background-size: cover;
-    background-position:center;
-    padding: 0;
+    height: calc(100vh - 100px);
+    background-image:url('./assets/media/bg.jpg');
+    background-size:cover;
+    overflow:hidden;
 }
 
 .section-team-area{
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(0, 0, 0, 0.5);
     padding-top:50px;
     padding-bottom:50px;
 }
