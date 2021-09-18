@@ -5,8 +5,6 @@
 Neste projeto, será replicado a intareface de uma Landing page de site de Designer utilizando tecnologias simples como HTML5, CSS3, Flexbox e JavaScript. Também será estruturado um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox a favor da aplicação.
 
 Também será aplicado uma Pipeline de integração continua e testes da aplicação.
-
-
 <!--Markdown do travis-->
 [![Build Status](https://travis-ci.com/wellington197/Projeto-Awax.svg?branch=main)](https://travis-ci.com/wellington197/Projeto-Awax)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5edbd578-16d2-4345-9d6b-237420fafad8/deploy-status)](https://app.netlify.com/sites/project-awax-web/deploys)
@@ -20,7 +18,11 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 <img src="https://img.shields.io/static/v1?label=devops&message=cultura&color=cream&style=for-the-badge&logo=DEVOPS"/>
 
 
-
+</br>
+<div align="center">
+    <a href="https://project-awax-web.netlify.app/src/home.html" height="95px" width="440px">LINK PARA EXECUTAR PROJETO
+    </a>
+</div></br>
 
 
 ### Conceitos aplicados no projeto
