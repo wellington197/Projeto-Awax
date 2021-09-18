@@ -9,6 +9,7 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 
 <!--Markdown do travis-->
 [![Build Status](https://travis-ci.com/wellington197/Projeto-Awax.svg?branch=main)](https://travis-ci.com/wellington197/Projeto-Awax)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5edbd578-16d2-4345-9d6b-237420fafad8/deploy-status)](https://app.netlify.com/sites/project-awax-web/deploys)
 
 ![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
 <img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/>
